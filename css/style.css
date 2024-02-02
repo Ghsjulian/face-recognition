@@ -1,0 +1,25 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: #000;
+  width: 100vw;
+  height: 100vh;
+  align-items: center;
+  display: flex;
+  overflow: auto;
+}
+.container {
+  border: 1px solid #43fff8;
+  max-width: 800px;
+  align-items: center;
+}
+.container img {
+  width: 15px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 10px;
+  padding: .3rem;
+}
